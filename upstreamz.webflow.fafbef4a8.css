@@ -237,6 +237,9 @@ body {
   line-height: 20px;
   color: #333;
 }
+a.w-webflow-badge {
+  display: none;
+}
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -4667,4 +4670,7 @@ figcaption {
       -ms-grid-row-span: 1;
       grid-row-end: 3;
   }
+  a.w-webflow-badge {
+    display: none;
+}
 }
